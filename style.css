@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #7c7c7c;
+}
+/* ==== HEADER ==== */
+#header ul{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+}
+#header li{
+    margin-top: 10px;
+}
+#header a{
+    text-decoration:none;
+    font-size: 10px;
+    color: #7c7c7c;
+}
+#header a:hover{
+    text-decoration:underline;
+    color: #7c7c7c;
+}
+#header h2{
+    font-size: 14px;
+    color: #7c7c7c;
+}
+#header{
+    width: auto;
+    margin-right: auto;
+    padding-left: 400px;
+    background-image: url("misc/grille.png");
+}
+#logo{
+    float: left;
+    padding-right: 115px;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-bottom: 30px;
+}
+.liHeaderTitre{
+    text-transform : uppercase;
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    font-size: 14px;
+    padding-bottom: 7px;
+    padding-top: 15px;
+}
+#hotels{
+    float: left;
+}
+#underlineColorRed{
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #f76900;
+    font-size: 11px;
+    width: 105px;
+    float: left;
+}
+#restaurants{
+    float: left;
+    margin-left: 25px;
+}
+#underlineColorYellow{
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #fcd04a;
+    font-size: 11px;
+    width: 105px;
+    float: left;
+}
+#services{
+    float: left;
+    margin-left: 25px;
+}
+#underlineColorGreen{
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #b9d482;
+    font-size: 11px;
+    width: 105px;
+    float: left;
+}
+#activites{
+    float: left;
+    margin-left: 25px;
+}
+#underlineColorBlue{
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #3d92c2;
+    font-size: 11px;
+    width: 105px;
+    float: left;
+}
+#plus{
+    float: left;
+    margin-left: 25px;
+}
+#underlineColorPurple{
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #c078d0;
+    font-size: 11px;
+    width: 105px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/* ==== PARTIE I : VIDEO ==== */
+#partie1{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #f0f0f0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f0;
+}
+#video{
+    margin-left: 620px;
+    width: 640px;
+    height: 390px;
+}
+/* ==== PARTIE II : TEXTE ==== */
+#partie2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    background-image: url("misc/grille.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ==== PARTIE III : ACTIVITES ==== */
+#partie3{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 30px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #f0f0f0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#partie3 h2{
+    text-transform: uppercase;
+    color: #e77927;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+}
+#partie3 p{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#partie3 span{
+    font-style: italic;
+    font-size: 10px;
+}
+#partie3 a{
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ada2a9;
+    margin-top: 15px;
+    float: left;
+}
+#partie3 a:hover{
+    text-decoration: underline;
+}
+#golf{
+    height: auto;
+    width: 200px;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 500px;
+}
+#golfImg{
+    background-image: url("misc/golf.jpg");
+    height: 140px;
+    width: 200px;
+    float: left;
+    padding-bottom:5px;
+}
+#cadreAccroFastFoods{
+    height: auto;
+    width: 225px;
+    float: left;
+}
+#Accrobranche{
+    height: auto;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#fastFoods{
+    height: auto;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+#commentaires{
+    height: auto;
+    width: 440px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#CommentairesImg{
+    float: left;
+}
+#CommentairesImg ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#CommentairesImg li{
+    float: left;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f0f0f0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-color: #dcdcdc;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+}
+#CommentairesImg li:hover{
+    opacity: 0.4;
+}
+/* ==== PARTIE IV : CONTACTS ==== */
+#partie4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background-image: url("misc/grille.png");
+    float: left;
+}
+#partie4 h3{
+    text-transform: uppercase;
+    color: #7c7c7c;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+#partie4 p{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#partie4 span{
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#partie4 a{
+    text-decoration: underline;
+    color: #7c7c7c;
+    font-size: 12px;
+}
+#nousContacter{
+    float: left;
+    height: auto;
+    width: 200px;
+    margin-left: 500px;
+}
+#liImg1{
+    list-style-image: url("misc/accueil_icone.png");
+}
+#liImg2{
+    list-style-image: url("misc/telephone_icone.png");
+}
+#liImg3{
+    list-style-image: url("misc/mail_icone.png");
+}
+#liImg4{
+    list-style-image: url("misc/aide_icone.png");
+}
+#dernierBillet{
+    float: left;
+    height: auto;
+    width: 200px;
+    margin-left: 30px;
+}
+#dernierCommentaire{
+    float: left;
+    height: auto;
+    width: 200px;
+    margin-left: 30px;
+}
+#blablaland{
+    float: left;
+    height: auto;
+    width: 200px;
+    margin-left: 30px;
+}
+/* ==== PARTIE V : BOTTOM ==== */
+#partie5{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #f0f0f0;
+    margin-top: 10px;
+    float: left;
+}
+#partie5 li{
+    float: left;
+    padding-left: 5px;
+    list-style: none;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#bottomLi{
+    float: left;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    width: 280px;
+    padding-left: 465px;
+    color: #7c7c7c;
+}
+#bottomLi p{
+    float: left;
+    color: #7c7c7c;
+    padding-bottom: 10px;
+}
+#partie5 a{
+    font-style: italic;
+    font-size: 10px;
+    text-decoration: none;
+    color: #ada2a9;
+}
+#partie5 a:hover{
+    text-decoration: underline;
+}
+#copyright{
+    color: #7c7c7c;
+    padding-left: 5px;
+}
+#social{
+    height: 44px;
+    width: 280px;
+    margin-left: 1130px;
+    margin-top: 20px;
+}
